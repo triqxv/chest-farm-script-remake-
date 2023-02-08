@@ -1,0 +1,14 @@
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "CHEST FARM";
+Text = "CHEST FARM REMAKE BY 🌙★ᵍᵉᵗ ˢʰⁱᵗ ᵒⁿ ᵏⁱᵈ★🌙#7506";
+Icon = "rbxassetid://12403833889";
+Duration = 50;
+ 
+})
+while wait(0.0000000000000000000000000000000001) do
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = game:GetService("Workspace").Chest2.CFrame
+rootPart.CFrame = game:GetService("Workspace").Chest1.CFrame
+rootPart.CFrame = game:GetService("Workspace").Chest3.CFrame
+end
